@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 with open('video_1.5.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file);
 
-    # next(csv_reader)
+    # Calculate the facial point actions
 
     with open('new_video_1.5.csv', 'w', newline='') as new_file:
         fieldnames = ['Frame', 'Happiness', 'Sadness', 'Surprise', 'Fear', 'Anger', 'Disgust', 'Contempt']

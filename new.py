@@ -17,7 +17,7 @@ timestamp = 0
 
 while True:
 
-    # global energy
+    # calculate global energy
     ret, frame = cam.read()
     if not ret:
         break

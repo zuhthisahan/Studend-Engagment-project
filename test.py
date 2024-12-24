@@ -36,4 +36,4 @@ for row in df.iterrows():
         writer.writerow(data)
 
 csvFile.close()
-print("Saving pre processed data")
+print("Saving pre processed data..")
